@@ -245,14 +245,23 @@ margin-top: 0.5rem;
   transition: 400ms;
 }
 
-  .navbar2 {
-    eight: 5rem !important;
-    ackground: red !important;
-    color: red !important;
+.navbar2 {
+    
     box-shadow: 1px 1px 10px #555;
-    padding: 3rem 3rem;
+    padding: 0rem 0rem;
 
+}
+
+@media (min-width: 600px) {
+  .navbar2   {
+    padding: 3rem 3rem;
   }
+}
+
+
+
+
+
 
 .bioSec {
  height: 30rem;
