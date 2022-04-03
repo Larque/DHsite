@@ -1,0 +1,199 @@
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  ackground-color: #FFF !important; 
+  color: #777 !important;
+  font-family: 'HappyTimesattheIKOBRegular' !important;
+  font-weight: normal;
+  font-style: normal; 
+  font-size: 1.25rem !important;
+  letter-spacing: 0.05rem !important;
+
+
+}
+
+.bg-mid-grey{
+  background-color:#FFF !important; 
+
+}
+
+.btn-secondary:hover {
+  background: #ddd !important;
+}
+
+.secondary-brand-color {
+  color: rgb(39, 111, 45) !important;
+  
+}
+
+.secondary-brand-color-border {
+ 
+  border: 1px solid rgb(39, 111, 45) !important;
+}
+
+
+
+
+.ID-top-image {
+
+
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+ 
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+/* rtl:end:ignore */
+
+
+/* SPLASH CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+
+.splash {
+  margin-top: 0rem;
+  padding-top: 0rem;
+  ackground: red !important;
+  eight: 40rem;
+}
+
+.splash .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.splash h2 {
+  font-weight: 400;
+}
+/* rtl:begin:ignore */
+.splash .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+/* rtl:end:ignore */
+
+
+/* NAV BAR CONTENT
+-------------------------------------------------- */
+
+
+.navbar-brand {
+  color: #333 !important;
+  
+}
+
+
+
+.nav-link {
+  float: right !important;
+  text-align: right;
+
+}
+
+
+.splash .btn {
+    float: right;
+
+}
+
+.splash .splashSection {
+  position: relative;
+  
+
+}
+
+.carSection {
+  position: relative;
+  margin: 2rem 0rem;
+  top: 0;
+  height: 60rem;
+  ackground-color: red;
+
+}
+
+.pro {
+ 
+  display: block;
+  position: relative;
+ 
+  eft: 25%;
+}
+
+.rightTest {
+  float: right !important;
+  margin-right: 0rem !important;
+  position: absolute !important;
+  text-align: right;
+ 
+}
+
+.ratio-9x16{--bs-aspect-ratio:calc(16 / 9 * 100%)}
+
+
+.videoSec {
+  margin: 13rem 0;
+}
+
+.rose {
+  width: 80%;
+}
+
+@media (min-width: 768px) {
+  .rose  {
+   width: 80%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .rose  {
+   width: 80%;
+  }
+}
+
+.poem-1 {
+ 
+  adding: 0rem;
+  width: 50%;
+  left: 25%;
+  position: relative;
+  ackground-color: red;
+}
+
+.smText-1 {
+  font-size: 0.75rem;
+}
