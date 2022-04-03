@@ -17,18 +17,20 @@
 
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/happy-times" type="text/css"/> 
 
-    
+    <script src="js/script.js"></script>
     <!-- Custom styles for this template -->
     <link href="css/carousel.css" rel="stylesheet">
   </head>
   <body>
     
 <header id="top-page">
-  <nav class="navbar navbar-expand-md navbar-light fixed-top bg-mid-grey ">
-    <div class="container-fluid" >
-    <a class="navbar-brand px-2"  href="#top-page">Daniel Hardisty</a>
-      <button class="navbar-toggler secondary-brand-color mx-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-md navbar-light fixed-top bg-mid-grey " id="nav">
+    <div class="container-fluid">
+      <a class="navbar-brand px-2" href="#"><span class="brandName secondary-brand-color ">Daniel
+          Hardisty</span></a>
+      <button class="navbar-toggler secondary-brand-color mx-4" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+        aria-label="Toggle navigation">
         <span class="navbar-toggler-icon "></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -37,11 +39,20 @@
             <a class="nav-link active secondary-brand-color " aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item px-2">
-            <a class="nav-link" href="#">Links</a>
+            <a class="nav-link secondary-brand-color " href="#media">Media</a>
           </li>
-     
+          <li class="nav-item px-2">
+            <a class="nav-link secondary-brand-color " href="#">Bio</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link secondary-brand-color " href="#">Contact</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link secondary-brand-color " href="https://twitter.com/dwhardisty" target="_blank"><div class="twitter"></div></a>
+          </li>
+
         </ul>
-    
+
       </div>
     </div>
   </nav>
@@ -76,9 +87,9 @@
                                            
                                      
                                             <center>
-                                              <img   class="img-fluid px-1 rose" src="assets\brand\E3XRgCSXwAYbL_u.jpg" />
+                                              <a href="https://www.saltpublishing.com/products/rose-with-harm-9781784632175" target="_blank"><img   class="img-fluid px-1 rose" src="assets\brand\E3XRgCSXwAYbL_u.jpg" /></a>
                                       </center>
-                                      <p class="py-5"><a class="btn btn-secondary mx-5 secondary-brand-color" href="#">View details &raquo;</a></p>
+                                      <p class="py-5"><a class="btn btn-secondary mx-5 secondary-brand-color" href="https://www.saltpublishing.com/products/rose-with-harm-9781784632175" target="_blank">View details &raquo;</a></p>
                                     </div><!-- /.col-lg-6 --> 
                            
                               </div><!-- /.row -->              
@@ -87,76 +98,115 @@
 
               <hr class="featurette-divider secondary-brand-color-border ">
 
-  <section class="carSection">   
-    <div class="container-fluid   px-3">        
+  <section class="carSection" id="media">
+    <div class="container-fluid   px-3">
 
-  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active fillInvert" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="fillInvert"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="fillInvert"></button>
+      <div id="myCarousel" class="carousel slide buttonSet " data-bs-ride="carousel">
+        <div class="carousel-indicators testest">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active fillInvert caraSlides"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"
+            class="fillInvert caraSlides"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"
+            class="fillInvert caraSlides"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"
+            class="fillInvert caraSlides"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+
+
+            <!--  <svg class="bd-placeholder-img" width="100%" height="150%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="150%" fill="#ddd"/></svg> -->
+
+            <div class="container">
+              <div class="carousel-caption text-start align-items-center">
+                <h1></h1>
+                <p class="  poem-1">poem 1 Chia master cleanse scenester marfa palo santo green juice. Tofu fanny pack
+                  master cleanse messenger bag wolf paleo yuccie lomo vinyl unicorn mixtape sriracha iceland palo santo
+                  jean shorts. Waistcoat hella vice fingerstache mustache neutra forage chartreuse man bun poke. Kogi
+                  poke locavore, snackwave 90's celiac chicharrones vape marfa PBR&B lumbersexual jianbing adaptogen air
+                  plant wolf. Hot chicken direct trade you probably haven't heard of them vexillologist fixie celiac pug
+                  affogato. Prism yr selfies wolf knausgaard cray kombucha chia shabby chic food truck schlitz
+                  letterpress.</p>
+                <div class="caraButton">
+                  <p><a class="btn btn-lg btn-secondary secondary-brand-color-border secondary-brand-color caraBtn"
+                      href="#">button</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <!--    <svg class="bd-placeholder-img" width="100%" height="150%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="150%" fill="#ddd"/></svg> -->
+
+            <div class="container">
+              <div class="carousel-caption">
+                <h1></h1>
+
+                <img class="img-fluid" src="assets\brand\FKTcp-_XwAIKGtp.jpg" />
+
+                <div class="caraButton">
+                  <p><a class="btn btn-lg btn-secondary secondary-brand-color-border secondary-brand-color caraBtn"
+                      href="#">Button</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="carousel-item">
+            <!--    <svg class="bd-placeholder-img" width="100%" height="150%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="150%" fill="#ddd"/></svg> -->
+
+            <div class="container">
+              <div class="carousel-caption">
+                <h1></h1>
+
+                <img class="img-fluid" src="assets\brand\FKTcp-_XwAIKGtp.jpg" />
+
+                <div class="caraButton">
+                  <p><a class="btn btn-lg btn-secondary secondary-brand-color-border secondary-brand-color caraBtn"
+                      href="#">Button</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div class="carousel-item">
+
+            <!--    <svg class="bd-placeholder-img" width="100%" height="150%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="150%" fill="#ddd"/></svg> -->
+
+            <div class="container">
+              <div class="carousel-caption">
+                <h1></h1>
+
+                <img class="img-fluid" src="assets\brand\FKTcp-_XwAIKGtp.jpg" />
+
+                <div class="caraButton">
+                  <p><a class="btn btn-lg btn-secondary secondary-brand-color-border secondary-brand-color caraBtn"
+                      href="#">Button</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon fillInvert" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next fillInvert" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
     </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
+   
 
-
-       <!--  <svg class="bd-placeholder-img" width="100%" height="150%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="150%" fill="#ddd"/></svg> -->
-
-        <div class="container">
-          <div class="carousel-caption text-start align-items-center">
-            <h1></h1>
-            <p class="  poem-1">poem 1 Chia master cleanse scenester marfa palo santo green juice. Tofu fanny pack master cleanse messenger bag wolf paleo yuccie lomo vinyl unicorn mixtape sriracha iceland palo santo jean shorts. Waistcoat hella vice fingerstache mustache neutra forage chartreuse man bun poke. Kogi poke locavore, snackwave 90's celiac chicharrones vape marfa PBR&B lumbersexual jianbing adaptogen air plant wolf. Hot chicken direct trade you probably haven't heard of them vexillologist fixie celiac pug affogato. Prism yr selfies wolf knausgaard cray kombucha chia shabby chic food truck schlitz letterpress.</p>
-            <div class="caraButton"> <p><a class="btn btn-lg btn-secondary secondary-brand-color-border secondary-brand-color caraBtn" href="#">button</a></p></div>
-          </div>
-        </div>
-      </div>
-
-      <div class="carousel-item">
-     <!--    <svg class="bd-placeholder-img" width="100%" height="150%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="150%" fill="#ddd"/></svg> -->
-
-        <div class="container">
-          <div class="carousel-caption">
-            <h1></h1>
-
-            <img class="img-fluid" src="assets\brand\FKTcp-_XwAIKGtp.jpg" />
-
-            <div class="caraButton">
-            <p ><a class="btn btn-lg btn-secondary secondary-brand-color-border secondary-brand-color caraBtn" href="#">Button</a></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-       
-        <div class="container">
-          <div class="carousel-caption">
-            <h1></h1>
-
-            <img class="img-fluid" src="assets\brand\FKTcp-_XwAIKGtp.jpg" />
-
-            <div class="caraButton">
-            <p ><a class="btn btn-lg btn-secondary secondary-brand-color-border secondary-brand-color caraBtn" href="#">Button</a></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon fillInvert" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next fillInvert" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-
-  </div>
-  </div>
-
-</section> 
- 
+  </section>
 
     <!-- START THE FEATURETTES -->
 
@@ -213,8 +263,8 @@
     <div class="row">
 
  <!-- /.col-lg-4 -->
-      <div class="col-sm-8  col-lg-4 p-3 m-auto">
-        <div class="ratio ratio-9x16">
+      <div class="col-sm-8  col-lg-4 p-3 m-auto p-5">
+        <div class="ratio ratio-9x16 p-5">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/wDWB2Wrm7Iw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
@@ -227,8 +277,8 @@
 
 
       <!-- /.col-lg-4 -->
-      <div class="col-sm-8  col-lg-4 p-3 m-auto ">
-        <div class="ratio ratio-9x16">
+      <div class="col-sm-8  col-lg-4 p-3 m-auto p-5 ">
+        <div class="ratio ratio-9x16 p-5">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/wDWB2Wrm7Iw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
@@ -243,8 +293,8 @@
       
       
       <!-- /.col-lg-4 -->
-      <div class="col-sm-8  col-lg-4 p-3 m-auto">
-        <div class="ratio ratio-9x16 ">
+      <div class="col-sm-8  col-lg-4 p-3 m-auto p-5">
+        <div class="ratio ratio-9x16 p-5">
           <iframe class="rotate" width="9%" height="16%" src="https://www.youtube.com/embed/wDWB2Wrm7Iw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
@@ -260,12 +310,12 @@
 
   <!-- FOOTER -->
   <footer class="container">
-    <p class="float-end "><a href="#">Back to top</a></p>
+    <p class="float-end secondary-brand-color backToTop"><a href="#">Back to top</a></p>
     <p class="smText-1 secondary-brand-color">&copy; 2022 Daniel Hardisty &middot;</p>
   </footer>
 </main>
 
-
+<script src="js/script.js"></script>
     <script src="boot/js/bootstrap.bundle.min.js"></script>
 
       

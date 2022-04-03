@@ -5,7 +5,7 @@
 /* Carousel base class */
 .carousel {
   margin-bottom: 6rem;
-  padding-top: 6rem; 
+  padding-top: 2rem; 
  
 }
 /* Since positioning the image, we need to help out the caption */
@@ -109,8 +109,14 @@
 }
 
 
-.rotate {
-  osition: absolute;
-  lip: rect(0px,600px,400px,100px);
-  ransform: scale(1.5);
+.caraSlides {
+ 
+  padding-top: 1.5rem !important;
+  ackground: red;
 }
+
+.buttonSet {
+  padding-top: 8rem !important;
+  
+}
+
