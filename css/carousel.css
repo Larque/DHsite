@@ -105,7 +105,13 @@
 
 }
 
-
+@media (min-width: 300px) {
+  .readingText {
+    margin: 0rem !important;
+    padding: 0rem  !important;
+    font-size: 1.1rem;
+  }
+}
 
 .featureText {
   font-size: 1rem;
