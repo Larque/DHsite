@@ -170,7 +170,7 @@ a:hover {
   display: block;
   position: relative;
  
-  eft: 25%;
+  width: 100%;
 }
 
 .rightTest {
@@ -185,7 +185,7 @@ a:hover {
 
 
 .videoSec {
-  margin: 13rem 0;
+  margin: 2rem 0;
 }
 
 .rose {
@@ -264,9 +264,23 @@ margin-top: 0.5rem;
 
 
 .bioSec {
- height: 30rem;
+ eight: 30rem;
 }
 
 .contactSec {
-  height: 30rem;
+  eight: 30rem;
+}
+
+
+
+.roseCover {
+  box-shadow: 1px 1px 30px rgba(6,6,6,0.74);
+  width: 30rem;
+  max-width: 100px;
+}
+
+
+.address {
+  font-size: 0.95rem;
+  margin-left: 3rem;
 }
