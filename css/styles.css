@@ -284,6 +284,7 @@ margin-top: 0.5rem;
   width: 20rem;
   max-width: 100px;
   transition: 500ms;
+  
 }
 
 
@@ -323,6 +324,7 @@ margin-top: 0.5rem;
 }
 
 .videoSet {
+  
   transform: rotate(90deg);
   
   }
