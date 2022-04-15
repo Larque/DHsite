@@ -6,7 +6,7 @@
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  ackground-color: #FFF !important; 
+  ackground-color: #ededed !important; 
   color: #777 !important;
   font-family: 'HappyTimesattheIKOBRegular' !important;
   font-weight: normal;
@@ -244,6 +244,7 @@ margin-top: 0.5rem;
 
 .navbar {
   transition: 400ms;
+  
 }
 
 .navbar2 {
