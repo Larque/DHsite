@@ -10,7 +10,7 @@
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  top: 3rem;
+  top: 5rem;
   z-index: 0;
   color: #777 !important
 }
@@ -31,8 +31,9 @@
 }
 
 .fillInvert {
-
-  filter: invert(100%);
+  margin-top: 3rem;
+  ilter: invert(100%);
+  background: rgb(39, 111, 45) !important;
 
 }
 
@@ -143,13 +144,23 @@
 
 
 .caraSlides {
- 
-  padding-top: 1.5rem !important;
+  height: 3px !important;
+  adding-top: -1.5rem !important;
   ackground: red;
 }
 
 .buttonSet {
   margin-top: -2rem !important;
+ 
   
 }
 
+.button {
+  height: 1.5rem !important;
+  border: 1px solid rgb(39, 111, 45) !important;
+  
+}
+
+.video {
+  z-index: 1000;
+}
