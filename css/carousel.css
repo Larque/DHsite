@@ -33,7 +33,7 @@
 .fillInvert {
   margin-top: 3rem;
   ilter: invert(100%);
-  background: rgb(39, 111, 45) !important;
+  background: rgb(27, 129, 44) !important;
 
 }
 
@@ -54,12 +54,12 @@
 
 .featurette-divider {
   margin: 4rem 3rem; /* Space out the Bootstrap <hr> more */
-  
+  opacity: 1;
 }
 
 .featurette-dividerTop {
   margin: 1rem 3rem; /* Space out the Bootstrap <hr> more */
-  
+  opacity: 1;
 }
 
 
@@ -157,7 +157,7 @@
 
 .button {
   height: 1.5rem !important;
-  border: 1px solid rgb(39, 111, 45) !important;
+  border: 1px solid rgb(27, 129, 44) !important;
   
 }
 

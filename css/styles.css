@@ -13,15 +13,38 @@ body {
   font-style: normal; 
   font-size: 1.25rem !important;
   letter-spacing: 0.05rem !important;
-  padding-left: 12rem;
-  padding-right: 12rem;
+  
 
 
 }
 
+main {
+  padding: 0rem 0rem;
+}
+
+@media (min-width: 800px) {
+  main {
+  padding: 0rem 10rem;
+  }
+}
+
+@media (min-width: 810px) {
+  main {
+  padding: 0rem 5rem;
+  }
+}
+
+
+
+
+
 .bg-mid-grey{
   background-color:#FFF !important; 
 
+}
+
+.bg-alt-primary {
+  background: #eee;
 }
 
 .btn-secondary:hover {
@@ -29,18 +52,18 @@ body {
 }
 
 .secondary-brand-color {
-  color: rgb(39, 111, 45) !important;
+  color: rgb(27, 129, 44) !important;
   
 }
 
 .secondary-brand-color-border {
  
-  border: 1px solid rgb(39, 111, 45) !important;
+  border: 1px solid rgb(27, 129, 44) !important;
 }
 
 a {
   text-decoration: none !important;
-  color: rgb(39, 111, 45) !important;
+  color: rgb(27, 129, 44) !important;
 }
 
 a:hover {
@@ -54,7 +77,7 @@ a:hover {
 
 .backToTop > .a {
   text-decoration: none !important;
-  color: rgb(39, 111, 45) !important;
+  color: rgb(27, 129, 44) !important;
 }
 
 .ID-top-image {
@@ -140,6 +163,7 @@ a:hover {
 .nav-link {
   float: right !important;
   text-align: right;
+  padding: 0rem 6rem;
 
 }
 
@@ -187,23 +211,48 @@ a:hover {
 
 
 .videoSec {
-  margin: 2rem 0;
-  padding: 5rem;
+  margin: 1rem 0;
+  padding: 2rem 0rem;
 }
 
 .rose {
   width: 80%;
+ 
+  
+  position: relative;
+  margin: 7rem 0rem;
 }
 
 @media (min-width: 768px) {
   .rose  {
    width: 80%;
+   margin: 0rem 0rem;
+   
+   
   }
 }
 
 @media (min-width: 1000px) {
   .rose  {
-   width: 80%;
+   width: 90%;
+   margin: 6rem 3rem;
+   
+  }
+}
+
+@media (min-width: 1500px) {
+  .rose  {
+   width: 100%;
+   margin: 6rem 2rem;
+   
+  }
+}
+
+@media (min-width: 1800px) {
+  .rose  {
+   width: 100%;
+   margin: 0rem 2rem;
+   
   }
 }
 
@@ -246,6 +295,7 @@ margin-top: 0.5rem;
 
 .navbar {
   transition: 400ms;
+
   
 }
 
@@ -267,9 +317,10 @@ margin-top: 0.5rem;
 
 
 
+
 .bioSec {
  
- padding: 4rem;
+ padding: 4rem 0rem;
 }
 
 .bioHeading {
@@ -355,7 +406,5 @@ margin-top: 0.5rem;
 }
 
 .btnRight {
-  padding: 2rem 0rem 0 0rem;
-  position: relative;
-  left: 70%;
+  float: right !important;
 }
