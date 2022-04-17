@@ -13,6 +13,8 @@ body {
   font-style: normal; 
   font-size: 1.25rem !important;
   letter-spacing: 0.05rem !important;
+  padding-left: 12rem;
+  padding-right: 12rem;
 
 
 }
@@ -324,10 +326,14 @@ margin-top: 0.5rem;
   }
 }
 
-.videoSet {
-  
+.videoSet90 {
   transform: rotate(90deg);
   
+  }
+
+  .videoBW {
+    filter: grayscale(1);
+
   }
 
   .featurette-heading {
